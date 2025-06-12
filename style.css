@@ -1,0 +1,90 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 25px;
+}
+.search-btn {
+  border: none;
+  background-color: #fff;
+}
+.card-btn {
+  border: none;
+  background-color: #fff;
+}
+.nav-btn {
+  border: none;
+  background-color: #494949;
+  border-radius: 24px;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 18px;
+}
+.all-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.link {
+    color: #2C3847;
+    font-size: 20px;
+}
+.hero {
+    display: flex;
+
+}
+.title {
+    width: 554px;
+    font-size: 69px;
+    font-weight: 500;
+}
+.green {
+    color: #5FB848;
+}
+.inform {
+    font-size: 24px;
+    font-weight: 300;
+}
+.hero-btn {
+    background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+    border: #5FB848 solid 2px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    font-size: 22.7px;
+    color: #fff;
+    margin-top: 130px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
