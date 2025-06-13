@@ -60,6 +60,7 @@ p {
 }
 .hero {
     display: flex;
+    margin-top: 45px;
 
 }
 .title {
@@ -81,10 +82,80 @@ p {
     border-radius: 40px;
     font-size: 22.7px;
     color: #fff;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 70px;
+}
+.theme {
+  font-size: 54px;
+  font-weight: 500;
+}
+.text {
+  color: #3B433E;
+  font-weight: 300;
+  font-size: 24px;
+}
+.main-card-theme {
+  font-size: 26px;
+  font-weight: 500;
+}
+.main-card-text {
+  color: #3B433E;
+  font-size: 18px;
+  width: 256px;
+  text-align: center;
+}
+.informs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 44px;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 124px;
+  justify-content: center;
+  margin-top: 48px;
+}
+.statistics {
+  display: flex;
+  gap: 124px;
+  justify-content: center;
+  margin-top: 34px;
+}
+.number {
+  font-weight: 600;
+  font-size: 44px;
+}
+.number-text {
+  font-size: 19px;
+  font-weight: 500;
+  color: #545454;
+}
+.number-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-card-text-2 {
+  color: #3B433E;
+  font-size: 18px;
+  width: 310px;
+  text-align: center;
+}
+.main-card-text-3 {
+  color: #3B433E;
+  font-size: 18px;
+  width: 310px;
+  text-align: center;
 }
