@@ -74,15 +74,16 @@ p {
 .inform {
     font-size: 24px;
     font-weight: 300;
+    width: 421px;
 }
 .hero-btn {
     background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
     border: #5FB848 solid 2px;
     padding: 20px 40px;
-    border-radius: 40px;
+    border-radius: 50px;
     font-size: 22.7px;
     color: #fff;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .hero-text {
     display: flex;
@@ -106,7 +107,7 @@ p {
 .main-card-text {
   color: #3B433E;
   font-size: 18px;
-  width: 256px;
+  width: 310px;
   text-align: center;
 }
 .informs {
@@ -119,6 +120,8 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 18px;
+  width: 310px;
 }
 .header-card {
   display: flex;
@@ -131,7 +134,7 @@ p {
   display: flex;
   gap: 124px;
   justify-content: center;
-  margin-top: 34px;
+  margin-top: 40px;
 }
 .number {
   font-weight: 600;
@@ -147,15 +150,64 @@ p {
   flex-direction: column;
   align-items: center;
 }
-.main-card-text-2 {
-  color: #3B433E;
-  font-size: 18px;
-  width: 310px;
-  text-align: center;
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 130px;
 }
-.main-card-text-3 {
-  color: #3B433E;
-  font-size: 18px;
-  width: 310px;
-  text-align: center;
+.theme-2 {
+  font-size: 54px;
+  font-weight: 500;
+  color: #151414;
+}
+.text-2 {
+  font-weight: 300;
+  font-size: 22px;
+  color: #181D19;
+  width: 465px;
+}
+.header-btn {
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: #2C9553 solid 2px;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+}
+.texts-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mini-title {
+  font-size: 54px;
+  font-weight: 500;
+  width: 516px;
+}
+.inform-2 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #181D19;
+  width: 516px;
+}
+.header-div-btn {
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  border: #5FB848 solid 2px;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size: 24px;
+  color: #fff;
 }
