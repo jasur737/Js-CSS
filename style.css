@@ -270,6 +270,9 @@ p {
 .card-food:hover {
   transform: scale(1.05);
   transition: 0.8s;
+  -webkit-box-shadow: 28px 31px 29px 6px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 28px 31px 29px 6px rgba(34, 60, 80, 0.14);
+  box-shadow: 28px 31px 29px 6px rgba(34, 60, 80, 0.14);
 }
 .card-text {
   width: 293px;
@@ -311,7 +314,7 @@ p {
   border-radius: 40px;
 }
 .header-card-2 {
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
   width: 514px;
   border-radius: 8px;
   padding: 38px 23px 49px 26px;
@@ -339,7 +342,7 @@ p {
 .photo-text {
   font-size: 14px;
   font-weight: 300;
-  color: #888A9A;
+  color: #888a9a;
 }
 .too-header-card {
   display: flex;
@@ -369,19 +372,19 @@ p {
 }
 .type {
   background-color: #fff;
-  border: 1px solid #F5F5F5;
+  border: 1px solid #f5f5f5;
   border-radius: 30px;
   padding-block: 21px;
-  padding-left: 21px;
-  padding-right: 32px;
+  padding-left: 28px;
+  padding-right: 38px;
   font-size: 16px;
   font-weight: 500;
 }
 .end-btn {
   padding: 20px 36px;
-  border-radius:50px;
-  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
-  border: 2px solid #5FB848;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+  border: 2px solid #5fb848;
   color: #fff;
   font-size: 18.6px;
 }
@@ -398,7 +401,7 @@ p {
 .end-text {
   font-size: 24px;
   font-weight: 300;
-  color: #181D19;
+  color: #181d19;
 }
 .texts-4 {
   display: flex;
@@ -430,7 +433,7 @@ p {
   margin-top: 24px;
 }
 .top-link {
-  color: #2C3847;
+  color: #2c3847;
   font-size: 22px;
   font-weight: 500;
 }
@@ -439,7 +442,7 @@ p {
   font-weight: 300;
 }
 .end {
-  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
   font-weight: 300;
   margin-top: 150px;
   color: #fff;
