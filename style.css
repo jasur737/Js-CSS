@@ -66,6 +66,42 @@ p {
   color: #2c3847;
   font-size: 20px;
 }
+.link {
+  cursor: pointer;
+  color: dimgray;
+  transition: 0.3s;
+  position: relative;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  height: 2px;
+  background-color: #5fb848;
+  border-radius: 2px;
+  width: 0;
+  transition: 0.4s;
+}
+
+.link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  height: 2px;
+  background-color: #5fb848;
+  border-radius: 2px;
+  width: 0;
+  transition: 0.4s;
+}
+
+.link:hover::before,
+.link:hover::after {
+  width: 61px;
+}
+
 .hero {
   display: flex;
   margin-top: 45px;
@@ -452,7 +488,7 @@ p {
   width: 1053px;
   height: 320px;
 }
- .swiper-button-next {
+.swiper-button-next {
   position: absolute !important;
   top: 400px !important;
 }
@@ -460,18 +496,18 @@ p {
   position: absolute !important;
   top: 400px !important;
 }
- .position {
+.position {
   position: relative;
- }
- .swiper-button-prev::after {
+}
+.swiper-button-prev::after {
   display: none;
- }
- .swiper-button-next::after {
+}
+.swiper-button-next::after {
   display: none;
- }
- .swiper-button-next {
+}
+.swiper-button-next {
   right: 47% !important;
- }
- .swiper-button-prev {
+}
+.swiper-button-prev {
   left: 47% !important;
- }
+}
